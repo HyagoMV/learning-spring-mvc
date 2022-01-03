@@ -18,6 +18,7 @@ public class HelloService {
 	public String sayHello() {
 		System.out.println("Hello Service!");
 		repository.sayHello();
+		repository.sayHelloModel();
 		return "service";
 	}
 }
