@@ -1,4 +1,4 @@
-package com.github.hyagomv;
+package com.github.hyagomv.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -8,6 +8,7 @@ public class HelloController {
 
 	@RequestMapping("/hello")
 	public String sayHello() {
-		return "hello.jsp";
+		System.out.println("Hello World Controller!");
+		return "hello";
 	}
 }
